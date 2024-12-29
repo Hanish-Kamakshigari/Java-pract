@@ -1,14 +1,30 @@
+import java.util.Scanner;
+
 public class Multiplication {
     public static void main(String[] args) {
-        int a=5;
-        int b=6;
-        int product=a*b;
-        int sum=a+b;
-        int difference= b-a;
-        int division = a/b;
-        System.out.println(product);
-        System.out.println(sum);
-        System.out.println(difference);
-        System.out.println(division);
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Enter the first number:");
+        int a = sc.nextInt();
+        
+        System.out.println("Enter the second number:");
+        int b = sc.nextInt();
+        
+        int product = a * b;
+        int sum = a + b;
+        int difference = b - a;
+        
+        System.out.println("Product: " + product);
+        System.out.println("Sum: " + sum);
+        System.out.println("Difference (second - first): " + difference);
+        
+        if (b != 0) {
+            int division = a / b;
+            System.out.println("Division (first / second): " + division);
+        } else {
+            System.out.println("Cannot divide by zero!");
+        }
+        
+        sc.close();  // Close the scanner when done
     }
 }
