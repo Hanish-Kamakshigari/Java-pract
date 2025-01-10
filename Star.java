@@ -13,7 +13,7 @@ switch(c){
     case 1:
     for(i=1;i<=r;i++){
         for(j=1;j<=i;j++){
-System.out.print("*");
+System.out.print("^");
         }
         System.out.println();
     }
@@ -21,7 +21,7 @@ System.out.print("*");
     case 2:
     for(i=r;i>=1;i--){
         for(j=1;j<=i;j++){
-System.out.print("*");
+System.out.print("^");
         }
         System.out.println();
     }
