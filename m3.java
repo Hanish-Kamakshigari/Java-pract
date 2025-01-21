@@ -20,7 +20,7 @@ public class m3 {
         System.out.println("\nEnter elements for Matrix A:");
         for(int i = 0; i < r; i++) {
             for(int j = 0; j < c; j++) {
-                System.out.print("Element[" + i + "][" + j + "]: ");
+                System.out.print("Element[" + (i + 1) + "][" + (j + 1) + "]: ");
                 matrixA[i][j] = sc.nextInt();
             }
         }
@@ -29,7 +29,7 @@ public class m3 {
         System.out.println("\nEnter elements for Matrix B:");
         for(int i = 0; i < r; i++) {
             for(int j = 0; j < c; j++) {
-                System.out.print("Element[" + i + "][" + j + "]: ");
+                System.out.print("Element[" + (i + 1) + "][" + (j + 1) +"]: ");
                 matrixB[i][j] = sc.nextInt();
             }
         }

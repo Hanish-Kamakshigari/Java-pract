@@ -13,13 +13,13 @@ public class Matrix2 {
         int[][] matrixB = new int[c][p];
         for(int i=0;i<r;i++){
         for(int j=0;j<c;j++){
-                System.out.print("Element [" + i + "][" + j + "]: ");
+                System.out.print("Element [" + (i+1) + "][" + (j+1) + "]: ");
 matrixA[i][j]=sc.nextInt();
 }
 }
 for(int i=0;i<c;i++){
     for(int j=0;j<p;j++) {
-        System.out.print("Element [" + i +"][" + j + "]: ");
+        System.out.print("Element [" + (i+1) +"][" + (j+1) + "]: ");
         matrixB[i][j]=sc.nextInt();
     }
 }
